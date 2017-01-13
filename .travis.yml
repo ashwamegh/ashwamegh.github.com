@@ -1,0 +1,6 @@
+language: html, css
+html:
+  - 5
+css:
+  -3
+script: index.html
