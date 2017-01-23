@@ -1,56 +1,84 @@
-<!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Shashank Shekhar's Page</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="apple-touch-icon" sizes="180x180" href="\assets\images/apple-touch-icon.png">
-		<link rel="icon" type="image/png" href="assets\images/favicon-32x32.png" sizes="32x32">
-		<link rel="icon" type="image/png" href="assets\images/favicon-16x16.png" sizes="16x16">
-		<link rel="manifest" href="assets\images/manifest.json">
-		<link rel="mask-icon" href="assets\images/safari-pinned-tab.svg" color="#5bbad5">
-		<link rel="shortcut icon" href="assets\images/favicon.ico">
-		<meta name="msapplication-config" content="assets\images/browserconfig.xml">
-<meta name="theme-color" content="#ffffff">
+   
+   
+<head>
+   <meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+   <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+   
+   <meta http-equiv="Content-Language" content="en_US" />
+   <meta name="google" content="notranslate" />
+   <meta name="description" content="">
+   <meta name="keywords" content="">
+   <meta name="author" content="Shashank Shekhar">
 
+   <title>Shashank Shekhar</title>
 
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+   <link rel="stylesheet" type="text/css" href="css/index.css" />
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Shashank Shekhar</h1>
-						<h2>Mobile App Developer &nbsp;&bull;&nbsp; Web Developer  &nbsp;&bull;&nbsp;  Data Enthusiast</h2>
-						<nav>
-							<ul>
-								<li><a href="https://in.linkedin.com/in/shashankshekharofficial" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
-								<li><a href="https://www.github.com/shashank7200" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
-								<li><a href=mailto:"shashank7200@gmail.com" class="icon fa-envelope-o" ><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+   <script src="js/box2d-web-2.1.a.3.js"></script>
+   <script src="js/jquery-1.11.1.min.js"></script>
+   <script src="js/index.js"></script>
+   </head>
+   <body>
+      
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">Copyright &copy; 2017 Shashank Shekhar</span>
-					</footer>
+      <div id="page-content">
+      
+         <canvas width="100" height="100" id="canvas-body"></canvas>
+         
+         <div id="logo"></div>
+         
+         <div id="nav-gravity-base"></div>
+         <div id="nav-gravity"></div>
 
-			</div>
-		</div>/
+         <div id="nav-menu-base"></div>
+         <div id="nav-menu"></div>
+         
+      
+      </div>
 
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+      <div id="black-fade" class="display-none"></div>
+
+      
+
+      <div id="menu">
+             
+             <div id="nav-menu-close"></div>
+
+            <p class="info-title">About</p>
+            <p class="info-body">Shashank Shekhar is an Indian based Mobile App Developer and web developer.</p>
+            <p class="info-body">He is learning to build Complex Android Projects in addition with add on skill of Web development </p>
+            <p class="info-body">
+               <a class="dark-link" href="https://shashank7200.github.com" target="_blank">shashank7200.github.com</a></br>
+               <a class="dark-link" href="mailto:shashank7200@gmail.com">shashank7200@gmail.com</a></br>
+               <a class="dark-link" href="http://twitter.com/shankywit" target="_blank">twitter.com/shankywit</a>
+            </p>
+            <p class="info-body">
+              <a class="light-link" href="http://behance.net/s-shekharofficial">behance.net/s-shekharofficial</a></br>
+              <a class="light-link" href="http://dribbble.com/shashank-shekhar" target="_blank">dribbble.com/shashank-shekhar</a></br>
+              <a class="light-link" href="http://linkedin.com/in/shashankshekharofficial" target="_blank">linkedin.com/in/shashankshekharofficial</a>
+               <a class="light-link" href="http://instagram.com/vishami3" target="_blank">instagram.com/vishami3</a>
+               <a class="light-link" href="http://pinterest.com/vishami3" target="_blank">pinterest.com/vishami3</a>
+               <a class="light-link" href="http://theinternetimes.tumblr.com/" target="_blank">theinternetimes.tumblr.com/</a>
+               <a class="light-link" href="http://vimeo.com/shashank7200" target="_blank">vimeo.com/shashank7200</a>
+            </p>
+
+      </div>
+
+      <img id="imageCross" class="icon" src="images/cross.svg" />
+      <img id="imageDribbble" class="icon" src="images/dribbble.svg" />
+      <img id="imageTwitter" class="icon" src="images/twitter.svg" />
+      <img id="imageNylllon" class="icon" src="images/nylllon.svg" />
+      <img id="imageVimeo" class="icon" src="images/vimeo.svg" />
+      <img id="imageOnsite" class="icon" src="images/onsite.svg" />
+      <img id="imageBehance" class="icon" src="images/behance.svg" />
+      <img id="imageSocket" class="icon" src="images/socketstudios.svg" />
+      <img id="imageTumblr" class="icon" src="images/tumblr.svg" />
+      <img id="imageLinkedin" class="icon" src="images/linkedin.svg" />
+      <img id="imagePinterest" class="icon" src="images/pinterest.svg" />
+      <img id="imageEllo" class="icon" src="images/ello.svg" />
+   
+
+   </body>
+   
 </html>
