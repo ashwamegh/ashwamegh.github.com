@@ -4,12 +4,13 @@
   <style>
     header {
       text-align: center;
-      background: url('http://dash.ga.co/assets/jeff-bg.png');
+      background: url('images/bg2.png') no-repeat;
       background-size: cover;
       color: white;
     }
     a {
       color: white;
+	  text-decoration:none;
     }
     h1 {
       font-size: 4.1em;
@@ -33,6 +34,19 @@
       padding: 20px;
       margin: 0 auto;
     }
+	
+	.main-content{
+	margin-top: -17px;
+	color: #fff;
+	background: rgba(73,155,234,1);
+background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+	}
     @media (max-width: 500px) {
       h1 {
         font-size: 36px;
@@ -55,6 +69,7 @@
       <li><a href="#">Worst Poems</a></li>
     </ul>
   </header>
+  <div class="main-content">
   <article>
     <h2>VHS umami pop-up trust fund</h2>
     <p>Marfa church-key kitsch bicycle rights, 8-bit mixtape cardigan gentrify Echo Park. Street art swag brunch, next level roof party Schlitz hella organic keffiyeh selfies. You probably haven't heard of them polaroid hashtag +1, meggings biodiesel Portland High Life cray tumblr retro.</p>
@@ -70,6 +85,7 @@
     <p>ethical thundercats sustainable locavore quinoa Neutra. Aesthetic tacky sweater single-origin coffee, bicycle rights organic lo-fi street art american apparel ennui four loko ethnic Brooklyn small batch. Forage YOLO polaroid</p>
     <button>Like</button>
   </article>
+  </div>
   <script>
     $("button").on("click", function() {
       alert("Clicked!");
