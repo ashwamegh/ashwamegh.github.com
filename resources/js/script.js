@@ -1,4 +1,28 @@
 $(function() {
+    console.log(`
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmmm                           mmmmmmmmmmmmmmm                          mmmmmmmmm
+    mmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmmm                         mmmmmmmmmmmmmmmmm                        mmmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm   mmmmmmmmmm
+    mmmmmmm                          mmmmmmmmmmmmmmmm                         mmmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    
+              You are allowed to look at my code for learning purpose only.`)
     $(window).on("scroll", function() {
         if($(window).scrollTop() > 50) {
             $("header").addClass("site-header-active");
