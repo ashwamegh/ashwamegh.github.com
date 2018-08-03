@@ -1,3 +1,3 @@
-# shashank7200.github.io
+# Ashwamegh's Portfolio
 
 Shashank Shekhar's Landing Page https://ashwamegh.github.io/
